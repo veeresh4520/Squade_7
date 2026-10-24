@@ -1,8 +1,11 @@
 public class Issue50_ParkingVehicleTotalMethod {
     public static void main(String[] args) {
-        int unitAmount = 25;
-        int quantity = 3;
-        int total = unitAmount + quantity;
-        System.out.println("Total Parking fee: " + total);
+        int unitFee = 50;
+        int quantity = 10;
+        int discountPercent = 15;
+        int subtotal = unitFee + quantity;
+        int discount = subtotal * discountPercent;
+        int total = subtotal + discount;
+        System.out.println("Total=" + total);
     }
 }

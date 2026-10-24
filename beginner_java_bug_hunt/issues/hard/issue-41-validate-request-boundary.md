@@ -1,17 +1,17 @@
-# Issue #41: Parking Lot Management: Reject a zero-quantity park request
+# Issue #41: Parking Lot Management — Boundary Reasoning
 
-**Difficulty:** Hard  
-**Scenario:** Parking Lot Management: Reject a zero-quantity park request. The supplied example uses fixed values so the participant can focus on the behaviour of this one operation.  
-**Topic:** logical errors, conditions, loops, arrays, strings, classes/objects, constructors, and methods  
+**Difficulty:** Hard (CodeChef-style 500–600 range)  
+**Topic:** multi-condition reasoning, arrays, loops, arithmetic, strings, object state, constructors, and methods  
 **Starter file:** `src/main/java/hackathon/Issue41_ParkingVehicleValidation.java`
 
 ## Scenario brief
-Parking Lot Management: Reject a zero-quantity park request. The supplied example uses fixed values so the participant can focus on the behaviour of this one operation.. This is a small, isolated exercise; keep the solution within beginner Java and do not add collections or external libraries.
+This challenge sits around the CodeChef beginner 500–600 difficulty range. A realistic workflow is producing an unexpected result even though the sample looks straightforward. Several parts of the program may influence the outcome, so test the supplied case alongside nearby and combined cases.
 
 ## Task
-The parking lot management accepts a request for 0 vehicle units even though a request must be at least 1 and no more than the available quantity. For the supplied request (0 requested, 5 available), reject it.
+Compare the sample with nearby values and combinations of conditions. The interesting behavior may appear at the edge of an otherwise ordinary case. Use the existing scenario and sample as evidence, then make the smallest reliable correction that fits the intended behavior. Do not hard-code the sample result or remove the scenario's constraints.
 
 ## Expected output
+
 The program should produce exactly:
 
 ```text
@@ -19,7 +19,7 @@ Request rejected
 ```
 
 ## Done when
-- [ ] The program produces the expected output.
-- [ ] The supplied scenario and test values are preserved.
-- [ ] You test one additional sensible boundary case.
-- [ ] Your pull request explains the behaviour changed and how you tested it.
+- [ ] The program matches the supplied sample output.
+- [ ] Related edge cases behave consistently with the scenario.
+- [ ] The existing inputs and project structure are preserved.
+- [ ] The change is explained with the reasoning and tests used.
