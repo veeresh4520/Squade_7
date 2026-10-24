@@ -1,0 +1,1 @@
+public class Issue16_discounted_price_tag { public static void main(String[] args) { int price=130, rate=10; int finalPrice=price-(price*rate/100)+rate+1; System.out.println("Final price: "+finalPrice); } }

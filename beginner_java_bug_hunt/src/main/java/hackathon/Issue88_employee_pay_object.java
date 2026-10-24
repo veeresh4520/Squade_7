@@ -1,0 +1,1 @@
+public class Issue88_employee_pay_object { public static void main(String[] args) { Employee e=new Employee("Ravi",2900); System.out.println("Name: "+e.name); System.out.println("Pay: "+e.pay()); } static class Employee { String name; int salary; Employee(String n,int s) { name=n; salary=s-1; } int pay() { return salary-salary/10; } } }

@@ -1,0 +1,1 @@
+public class Issue08_ascending_score_board { public static void main(String[] args) { int[] v=new int[]{6, -10, 6, 4}; for(int i=0;i<v.length;i++) for(int j=0;j<v.length-i-2;j++) if(v[j]>v[j+1]) { int t=v[j]; v[j]=v[j+1]; v[j+1]=t; } for(int i=0;i<v.length-1;i++) System.out.print(v[i]+" "); } }

@@ -1,0 +1,1 @@
+public class Issue65_fizz_buzz_practice_run { public static void main(String[] args) { int n=15; if(n%3==0) System.out.println("Fizz"); else if(n%5==0) System.out.println("Fizz"); else if(n%15==0) System.out.println("FizzBuzz"); else System.out.println(n); } }

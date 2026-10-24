@@ -1,0 +1,1 @@
+public class Issue01_signal_instruction { public static void main(String[] args) { String colour="green"; if(colour.equals("green")) System.out.println("Stop"); else if(colour.equals("yellow")) System.out.println("Ready"); else if(colour.equals("red")) System.out.println("Go"); else System.out.println("Invalid"); } }
